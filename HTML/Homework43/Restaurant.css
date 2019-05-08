@@ -1,0 +1,54 @@
+html {
+    background-color: white; 
+}
+
+body {
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    color: navy;
+    text-align: center;
+    font-size: 55px;
+    border: black 3px solid;
+    letter-spacing: -0.03em;
+    border-radius: 15px;
+    font-weight: 200;
+    line-height: 1.5;
+}
+
+h2 {
+    text-decoration: underline;
+    color: red;
+    text-align: center;
+    background-color: tan;
+    font-size: 45px;
+    font-style: inherit;
+}
+
+p {
+    text-align: center;
+    background-color: silver;
+}
+
+div {
+    text-align: center;
+    font-size: 28px;
+    line-height: 1.5;
+}
+
+
+
+a:link {
+   color: red;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: yellow;
+}
+
