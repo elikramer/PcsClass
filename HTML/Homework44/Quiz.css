@@ -1,0 +1,17 @@
+div {
+    width: 450px;
+    height: 150px;
+    margin: 20px;
+    margin-right: 20px;
+    background-color: yellow;
+    color: black;
+    border: black 2px solid;
+    text-align: center;
+    padding-top: 100px;
+    float: left;
+}
+
+p {
+    clear: both;
+    padding-left: 50px;
+}
