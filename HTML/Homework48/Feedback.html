@@ -1,0 +1,49 @@
+<html>
+
+    <head>
+        <title>Submit Feedback</title>
+        <link href="Feedback.css" rel="stylesheet" >
+        <link href="images/Restaurant.ico" rel="icon">
+    </head>
+
+    <body>       
+        <form action="Feedback.php" method="post">
+            <label for="fullName">Full Name:</label><input name="fullName" id="fullName" minlength="8" maxlength="30" placeholder=" Enter Name" required>
+            <label for="email">Email:</label><input type="email" name="email" id="email" minlength="10" maxlength="30" placeholder=" example@gmail.com" required>
+            <label for="dateVisited">Enter the date you visited:</label><input type="date" name="dateVisited" id="dateVisited">
+            <label for="rating">Rate us- left being 1 right being 5:</label><input type="range" name="rating" id="rating" min="1" max="5" required> 
+            <label for="food">What did you buy?</label>
+            <div class="checkboxItem">
+                    <input type="checkbox" name="food" value="Hot Dog">Hot Dog
+            </div>
+            <div class="checkboxItem">
+                    <input type="checkbox" name="food" value="Burger">Burger
+            </div>
+            <div class="checkboxItem">
+                    <input type="checkbox" name="food" value="Hot Pastrami">Hot Pastrami
+            </div>
+            <div class="checkboxItem">
+                    <input type="checkbox" name="food" value="Shnitzel">Shnitzel
+            </div>
+            <div class="checkboxItem">
+                    <input type="checkbox" name="food" value="Grilled Chicken">Grilled Chicken
+            </div>
+            <div class="checkboxItem">
+                    <input type="checkbox" name="food" value="Shawarma">Shawarma
+            </div>
+            <div class="checkboxItem">
+                    <input type="checkbox" name="food" value="Steak">Steak
+            </div>
+            
+            <label for="comments">Comments:</label>
+            <textarea name="comments" id="comments"></textarea>
+            <input type="submit">
+
+        </form>
+
+        <div class="links">
+            <a href="Restaurant.html">Home</a>
+        </div>
+    </body>
+
+</html>
