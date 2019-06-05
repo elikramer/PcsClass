@@ -1,0 +1,242 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(3, 32%); 
+    grid-template-rows: 185px 1fr 2fr 1fr 2fr 3fr;
+    grid-template-areas: 
+                "estuff estuff estuff"
+                "products products products"
+                "computer choir candy"
+                "form form form"
+                "finance finance finance"
+                "about about about";
+                
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-gap: 20px;
+    padding-top: 50px;
+    height: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+nav {
+    position: fixed;
+    background-color: black;
+    width: 1900px;
+    list-style-type: none;
+    left: 0cm;
+    height: 58px;
+    top: 0px;
+    padding-left: 10%;
+}
+
+ul {
+    padding-top: 5px;
+    padding-left: 0px;
+}
+
+li {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+header {
+    background-color: lightgrey;
+    width: auto;
+    text-align: center;
+    grid-area: estuff;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+h1 {
+    padding-top: 25px;
+    text-transform: uppercase;
+}
+
+#PCS {
+    margin-top: -12;
+}
+
+section {
+    grid-area: products;
+}
+
+div > h3 {
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 65px;
+    left: 0cm;
+    padding-left: 10%;
+}
+
+#compDiv {
+    grid-area: computer;
+}
+
+#vidDiv {
+    grid-area: choir;
+}
+
+#candyDiv {
+    grid-area: candy;
+}
+
+video {
+    width: 100%;
+    height: 190px;
+}
+
+form {
+    grid-area: form;
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 5px;
+    padding-bottom: 15px;
+}
+
+label {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+input {
+    border-radius: 5px;
+    box-shadow: 3px 3px black;
+}
+
+.jumpTo {
+    display: block;
+    position: relative;
+    top: -65px;
+    visibility: hidden;
+} 
+
+#financialSec {
+    grid-area: finance;
+}
+
+.productText {
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 13px;
+}
+
+table {
+    border-collapse: collapse; 
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+} 
+
+caption {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+} 
+
+td, th, tr{
+    border: 1px solid black;
+    text-align: right;
+}
+
+.year {
+    text-align: center;
+    width: 70px;
+    font-weight: bold;
+}
+
+tr, th {
+    width: 180px;
+}
+
+th {
+    text-align: center;
+    background-color: white;
+}
+
+td:last-child {
+    color: red;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+#foot {
+    background-color: white;
+}
+
+tbody tr:hover {
+    background-color: lightblue;
+}
+
+article {
+    grid-area: about;
+}
+
+#AU {
+    margin-bottom: 50px;
+}
+
+#copyright {
+    margin-top: 20;
+}
+
+@media screen and (max-width: 1000px) {
+    
+    body {
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: 150px 1fr 2fr 2fr 2fr 1fr 2fr 3fr;
+        grid-template-areas: 
+                    "estuff"
+                    "products"
+                    "computer"
+                    "choir"
+                    "candy"
+                    "form"
+                    "finance"
+                    "about";
+    }
+
+    table {
+        width: 1000px;
+    }
+
+    img {
+        height: 300px;
+    } 
+
+    input, label{
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-bottom: 3px;
+        margin-top: 5px;
+        display: block;
+        width: 40%;
+        
+    }
+
+
+}
+

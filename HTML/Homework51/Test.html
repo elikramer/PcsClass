@@ -1,0 +1,185 @@
+<html>
+    <head>
+        <title>PCS</title>
+        <link rel="stylesheet" href="Test.css">
+    </head>
+
+    <nav>
+        <ul>
+            <li><a href="#Products">Products</a></li>
+            <li><a href="#SignUp">Sign Up</a></li>
+            <li><a href="#Financials">Financials</a></li>
+            <li><a href="#AboutUs">About Us</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>estuff</h1>
+        <h2 id="PCS">A <i>PCS</i> company</h2>
+    </header>
+
+    <section>
+        <a class="jumpTo" name="Products"></a>
+        <h3>Products</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Nostrum voluptatem quod odio repellat est inventore dolore 
+            nisi dicta! Unde minima harum deserunt, non dolorem illum?</p>
+    </section>
+    
+    
+    <div id="compDiv">
+        <h3>Computers</h3>
+        <img id="picture1" src="HTML CSS Test/macworld.jpg" alt="A Mac Pro" width="325px" height="175px">
+        <p class="productText">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Voluptatum voluptatem eos ducimus illo sit, aliquid, quaerat 
+            tempora ullam dolore nam beatae nisi, dolor reprehenderit ratione!
+        </p>
+    </div>
+
+    <div id="vidDiv">
+        <h3>Choirs</h3>
+        <video poster="HTML CSS Test/shira.png" src="HTML CSS Test/El Hanaar Hazeh.mp4" controls preload="metadata"></video>
+        <p class="productText">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Voluptatum voluptatem eos ducimus illo sit, aliquid, quaerat 
+            tempora ullam dolore nam beatae nisi, dolor reprehenderit ratione!
+        </p>
+    </div>
+    
+    <div id="candyDiv">
+        <h3>Candy</h3>
+        <img id="picture2" src="HTML CSS Test/candy.png" alt="Sour Candy" width="325px" height="175px">
+        <p class="productText">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Voluptatum voluptatem eos ducimus illo sit, aliquid, quaerat 
+            tempora ullam dolore nam beatae nisi, dolor reprehenderit ratione!
+        </p>
+    </div>
+
+    <form action="Test.php" method="POST">
+        <a class="jumpTo" name="SignUp"></a>
+        <h2>Sign me up!</h2>
+        <label for="Name">Name</label><input id="Name" name="Name" type="text" minlength="4" maxlength="30" placeholder="Your Name" required>
+        <label for="email">Email</label><input type="email" id="email" name="email" minlength="7" maxlength="25" placeholder="Your Email" required>
+        <input type="submit" value="Sign me up!">
+    </form>
+
+    <section id="financialSec">
+        <a class="jumpTo" name="Financials"></a>
+        <h3>Financials</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque temporibus dolor 
+            aspernatur sed corporis reiciendis incidunt consequuntur ipsa. Id accusantium 
+            soluta eius minus rerum velit omnis, labore, fugit voluptate debitis est 
+            veritatis in, sit nihil blanditiis vitae facere! Incidunt, reiciendis. 
+            Ratione non sed cumque earum saepe doloribus ad minima ipsum, provident 
+            voluptates libero impedit hic ut obcaecati optio ducimus vero magnam? 
+            Dolorum corrupti dolore nobis expedita inventore odio culpa totam, 
+            impedit esse excepturi aspernatur assumenda provident commodi quod. 
+            Necessitatibus, sunt totam, voluptas molestiae eos possimus laudantium, 
+            aperiam quos dolor tempore non exercitationem ratione in 
+            accusantium animi ipsam pariatur assumenda numquam!</p>
+            
+        <table>
+            <caption>Profits - By Quarter</caption>
+            <thead>
+                <tr>
+                    <th class="year">Year</th>
+                    <th>1st Quarter Profits</th>
+                    <th>2nd Quarter Profits</th>
+                    <th>3rd Quarter Profits</th>
+                    <th>4th Quarter Profits</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="year">2012</td>
+                    <td>$1,254,564.32</td>
+                    <td>$9,837,658.32</td>
+                    <td>$4,537,824.32</td>
+                    <td>$5,555,555.32</td>
+                    <td>$28,902,938.67</td>
+                </tr>
+                <tr>
+                    <td class="year">2013</td>
+                    <td>$1,254,564.32</td>
+                    <td>$3,345,229.32</td>
+                    <td>$9,989,895.32</td>
+                    <td>$2,985,644.32</td>
+                    <td>$25,559,403.67</td>
+                </tr>
+                <tr>
+                    <td class="year">2014</td>
+                    <td>$1,278,878.32</td>
+                    <td>$4,533,345.32</td>
+                    <td>$2,987,409.45</td>
+                    <td>$5,556,309.00</td>
+                    <td>$22,893,430.67</td>
+                </tr>
+                <tr>
+                    <td class="year">2015</td>
+                    <td>$1,254,564.32</td>
+                    <td>$9,837,658.32</td>
+                    <td>NA</td>
+                    <td>NA</td>
+                    <td>$18,902,938.67</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr id="foot">
+                    <td colspan="5"><b>Total</b></td>
+                    <td>$98,771,101.99</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+    
+    <article id="AU">
+        <a name="AboutUs"></a>
+        <h3>About Us</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.  Nam ipsa blanditiis, sequi sed 
+            quod reprehenderit obcaecati molestias nobis amet quos dicta recusandae a officia libero 
+            rerum corrupti nemo, excepturi aspernatur itaque dolorum explicabo at. Reprehenderit, minima 
+            eius. Doloribus in cumque nisi fugiat. Repudiandae obcaecati, nisi quae aliquam ea maxime, 
+            nobis earum asperiores deserunt consequuntur accusantium, cupiditate in voluptate impedit 
+            sed quam? Illum sapiente blanditiis neque fugiat voluptatibus voluptate sed dolorum, illo 
+            officiis officia at similique consectetur corporis inventore harum dicta odio aliquid ea! 
+            Dicta aperiam iusto assumenda ut autem. Vitae illum aliquam repellendus quis deserunt 
+            fugit a, quaerat eaque debitis qui impedit. Maiores aspernatur repudiandae tempora minima
+            officia explicabo doloremque, vel eius eveniet adipisci incidunt laboriosam rerum sint
+            nihil magni quas ratione accusamus. Dolores placeat, rem velit, ad minus, et praesentium
+            optio quasi necessitatibus libero laboriosam fugit error dignissimos enim nobis explicabo
+            possimus. Fugit veniam natus alias sapiente deserunt ipsum deleniti ullam quis tenetur
+            impedit aliquid, quos, dolores suscipit! Similique, architecto facilis ipsum autem
+            excepturi quos deleniti tempora, itaque cupiditate quas, enim error dolor tempore
+            maiores sint repellat harum. Nesciunt ipsum aliquam, perspiciatis similique neque
+            molestias, sit placeat aliquid amet repellat quidem animi odio ut consequuntur dolores?
+            Itaque enim quidem amet voluptate voluptatibus non, modi assumenda minima ipsam, beatae 
+            inventore officiis quis quos? Nesciunt perferendis repellat aspernatur? Earum distinctio 
+            molestiae odio dolor magnam eos at facilis? Deserunt veritatis vitae officia, voluptate 
+            pariatur modi enim maxime tempore minima magnam, quidem odit, quasi hic autem earum fuga 
+            delectus molestias quod sed molestiae et a reiciendis. Eius, totam, architecto ipsam est vero 
+            cumque atque, minus ducimus culpa repellendus accusamus! Neque quas asperiores non officia 
+            praesentium aperiam quaerat maxime ut unde voluptatibus accusantium voluptas fugiat, 
+            tenetur obcaecati dolor. Quasi vitae quae delectus. Totam, sed odio placeat tempora 
+            dicta neque debitis magnam adipisci quas. Aspernatur, itaque. Tempora odit iste, 
+            minima rem nisi optio quam, mollitia cum molestiae vel accusamus rerum asperiores 
+            eaque voluptas nihil maxime dolore, numquam deserunt veniam. Similique accusamus magnam 
+            minima repellendus totam unde saepe earum consequatur dicta, soluta accusantium nobis, cum, 
+            iste inventore! Officia non nobis odio? Numquam, perspiciatis odio cupiditate dignissimos 
+            alias autem debitis facere nisi, dicta quasi a voluptate. Reprehenderit voluptatem provident 
+            commodi debitis quam deserunt voluptate beatae incidunt aliquid aliquam id repellendus officiis 
+            doloremque aut, odio cumque nemo earum magnam unde sed. Harum recusandae laboriosam similique nesciunt. 
+            Quaerat fugiat quia facilis eaque accusamus iusto ab voluptatum quas tempore veniam?</p>
+    </article>    
+
+    <footer>
+        <p id="copyright">&copy PCS 2015</p>
+    </footer>
+    
+
+</html>
+
+
+
