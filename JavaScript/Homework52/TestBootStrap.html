@@ -1,0 +1,255 @@
+<html>
+    <head>
+        <title>PCS</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+              integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="TestBootStrap.css">
+    </head>
+
+    <body class="container">
+            <div class="container">
+                <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#Products">Products<span class="sr-only">(current)</span></a>
+                                </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#SignUp">SignUp<span class="sr-only">(current)</span></a>
+                                </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#Financials">Financials<span class="sr-only">(current)</span></a>
+                                </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#AboutUs">AboutUs<span class="sr-only">(current)</span></a>
+                            </li> 
+                        </ul>
+                    </div>
+                </nav>        
+            </div>
+
+            
+            <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                      <h1 class="display-4 text-center text-uppercase">estuff</h1>
+                      <p class="lead text-center">A PCS company</p>
+                    </div>
+                  </div>
+        
+
+        <section>
+            <a name="Products" class="jumpTo"></a>
+            <h3>Products</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Nostrum voluptatem quod odio repellat est inventore dolore 
+                nisi dicta! Unde minima harum deserunt, non dolorem illum?</p>
+        </section>
+        
+        <div class="row">
+            <div id="compDiv" class="col-md-4 col-lg-4">
+                <h3 class="text-center">Computers</h3>
+                <img src="HTML CSS Test/macworld.jpg" class="img-fluid" alt="A Mac Pro">
+                <p class="productText">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Voluptatum voluptatem eos ducimus illo sit, aliquid, quaerat 
+                    tempora ullam dolore nam beatae nisi, dolor reprehenderit ratione!
+                </p>
+            </div>
+
+            <div id="vidDiv" class="col-md-4 col-lg-4">
+                <h3 class="text-center">Choirs</h3>
+                <video poster="HTML CSS Test/shira.png" src="HTML CSS Test/El Hanaar Hazeh.mp4" controls preload="metadata"></video>
+                <p class="productText">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Voluptatum voluptatem eos ducimus illo sit, aliquid, quaerat 
+                    tempora ullam dolore nam beatae nisi, dolor reprehenderit ratione!
+                </p>
+            </div>
+            
+            <div id="candyDiv" class="col-md-4 col-lg-4">
+                <h3 class="text-center">Candy</h3>
+                <img id="picture2" src="HTML CSS Test/candy.png" class="img-fluid" alt="Sour Candy">
+                <p class="productText">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Voluptatum voluptatem eos ducimus illo sit, aliquid, quaerat 
+                    tempora ullam dolore nam beatae nisi, dolor reprehenderit ratione!
+                </p>
+            </div>
+        </div>
+
+        <div id="formDiv" class="jumbotron jumbotron-fluid text-center ml-1 mr-1">
+            <a name="SignUp" class="jumpTo"></a>
+            <h4>Sign Me Up!</h4>
+            <form class="needs-validation" novalidate>
+                <div class="form-row row justify-content-md-center">
+                <div class="col-md-4 mb-3">
+                    <label for="validationCustom01">First name</label>
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="First name"  required>
+                    <div class="valid-feedback">
+                    Looks good!
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="validationCustom02">Last name</label>
+                    <input type="text" class="form-control" id="validationCustom02" placeholder="Last name"  required>
+                    <div class="valid-feedback">
+                    Looks good!
+                    </div>
+                </div>
+                
+                </div>
+                
+                <button class="btn btn-danger mt-1" type="submit">Submit form</button>
+            </form>
+        </div>
+          
+        <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function() {
+        'use strict';
+        window.addEventListener('load', function() {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+                if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+            }, false);
+            });
+        }, false);
+        })();
+        </script>
+
+        <section id="financialSec">
+            <a class="jumpTo" name="Financials"></a>
+            <h3>Financials</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque temporibus dolor 
+                aspernatur sed corporis reiciendis incidunt consequuntur ipsa. Id accusantium 
+                soluta eius minus rerum velit omnis, labore, fugit voluptate debitis est 
+                veritatis in, sit nihil blanditiis vitae facere! Incidunt, reiciendis. 
+                Ratione non sed cumque earum saepe doloribus ad minima ipsum, provident 
+                voluptates libero impedit hic ut obcaecati optio ducimus vero magnam? 
+                Dolorum corrupti dolore nobis expedita inventore odio culpa totam, 
+                impedit esse excepturi aspernatur assumenda provident commodi quod. 
+                Necessitatibus, sunt totam, voluptas molestiae eos possimus laudantium, 
+                aperiam quos dolor tempore non exercitationem ratione in 
+                accusantium animi ipsam pariatur assumenda numquam!</p>
+                
+            <table class="table table-bordered table-hover">
+                <caption>Profits - By Quarter</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Year</th>
+                        <th scope="col">1st Quarter Profits</th>
+                        <th scope="col">2nd Quarter Profits</th>
+                        <th scope="col">3rd Quarter Profits</th>
+                        <th scope="col">4th Quarter Profits</th>
+                        <th scope="col">Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-success">
+                        <td scope="row">2012</td>
+                        <td>$1,254,564.32</td>
+                        <td>$9,837,658.32</td>
+                        <td>$4,537,824.32</td>
+                        <td>$5,555,555.32</td>
+                        <td>$28,902,938.67</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">2013</td>
+                        <td>$1,254,564.32</td>
+                        <td>$3,345,229.32</td>
+                        <td>$9,989,895.32</td>
+                        <td>$2,985,644.32</td>
+                        <td>$25,559,403.67</td>
+                    </tr>
+                    <tr class="table-success">
+                        <td scope="row">2014</td>
+                        <td>$1,278,878.32</td>
+                        <td>$4,533,345.32</td>
+                        <td>$2,987,409.45</td>
+                        <td>$5,556,309.00</td>
+                        <td>$22,893,430.67</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">2015</td>
+                        <td>$1,254,564.32</td>
+                        <td>$9,837,658.32</td>
+                        <td>NA</td>
+                        <td>NA</td>
+                        <td>$18,902,938.67</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr id="foot">
+                        <td colspan="5"><b>Total</b></td>
+                        <td>$98,771,101.99</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        
+        <div id="AU">
+            <a name="AboutUs"></a>
+            <h3>About Us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.  Nam ipsa blanditiis, sequi sed 
+                quod reprehenderit obcaecati molestias nobis amet quos dicta recusandae a officia libero 
+                rerum corrupti nemo, excepturi aspernatur itaque dolorum explicabo at. Reprehenderit, minima 
+                eius. Doloribus in cumque nisi fugiat. Repudiandae obcaecati, nisi quae aliquam ea maxime, 
+                nobis earum asperiores deserunt consequuntur accusantium, cupiditate in voluptate impedit 
+                sed quam? Illum sapiente blanditiis neque fugiat voluptatibus voluptate sed dolorum, illo 
+                officiis officia at similique consectetur corporis inventore harum dicta odio aliquid ea! 
+                Dicta aperiam iusto assumenda ut autem. Vitae illum aliquam repellendus quis deserunt 
+                fugit a, quaerat eaque debitis qui impedit. Maiores aspernatur repudiandae tempora minima
+                officia explicabo doloremque, vel eius eveniet adipisci incidunt laboriosam rerum sint
+                nihil magni quas ratione accusamus. Dolores placeat, rem velit, ad minus, et praesentium
+                optio quasi necessitatibus libero laboriosam fugit error dignissimos enim nobis explicabo
+                possimus. Fugit veniam natus alias sapiente deserunt ipsum deleniti ullam quis tenetur
+                impedit aliquid, quos, dolores suscipit! Similique, architecto facilis ipsum autem
+                excepturi quos deleniti tempora, itaque cupiditate quas, enim error dolor tempore
+                maiores sint repellat harum. Nesciunt ipsum aliquam, perspiciatis similique neque
+                molestias, sit placeat aliquid amet repellat quidem animi odio ut consequuntur dolores?
+                Itaque enim quidem amet voluptate voluptatibus non, modi assumenda minima ipsam, beatae 
+                inventore officiis quis quos? Nesciunt perferendis repellat aspernatur? Earum distinctio 
+                molestiae odio dolor magnam eos at facilis? Deserunt veritatis vitae officia, voluptate 
+                pariatur modi enim maxime tempore minima magnam, quidem odit, quasi hic autem earum fuga 
+                delectus molestias quod sed molestiae et a reiciendis. Eius, totam, architecto ipsam est vero 
+                cumque atque, minus ducimus culpa repellendus accusamus! Neque quas asperiores non officia 
+                praesentium aperiam quaerat maxime ut unde voluptatibus accusantium voluptas fugiat, 
+                tenetur obcaecati dolor. Quasi vitae quae delectus. Totam, sed odio placeat tempora 
+                dicta neque debitis magnam adipisci quas. Aspernatur, itaque. Tempora odit iste, 
+                minima rem nisi optio quam, mollitia cum molestiae vel accusamus rerum asperiores 
+                eaque voluptas nihil maxime dolore, numquam deserunt veniam. Similique accusamus magnam 
+                minima repellendus totam unde saepe earum consequatur dicta, soluta accusantium nobis, cum, 
+                iste inventore! Officia non nobis odio? Numquam, perspiciatis odio cupiditate dignissimos 
+                alias autem debitis facere nisi, dicta quasi a voluptate. Reprehenderit voluptatem provident 
+                commodi debitis quam deserunt voluptate beatae incidunt aliquid aliquam id repellendus officiis 
+                doloremque aut, odio cumque nemo earum magnam unde sed. Harum recusandae laboriosam similique nesciunt. 
+                Quaerat fugiat quia facilis eaque accusamus iusto ab voluptatum quas tempore veniam?</p>
+            </div>    
+
+            <nav class="navbar fixed-bottom navbar-dark bg-dark">
+                    <a class="navbar-brand" href="#">&copy PCS 2015</a>
+                  </nav>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    </body>
+
+
+</html>
