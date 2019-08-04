@@ -1,0 +1,17 @@
+[
+
+    {
+        "firstName" : "Eli",
+        "lastName" : "Kramer",
+        "email" : "eli@gmail.com",
+        "phone" : "467-098-0987"
+    },
+
+    {
+        "firstName" : "Donald",
+        "lastName" : "Duck",
+        "email" : "dd@duckduckgo.com",
+        "phone" : "467-098-0987"
+    }
+
+]
